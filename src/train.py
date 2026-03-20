@@ -5,7 +5,7 @@ import tensorflow as tf
 from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix, roc_auc_score
 
-from model_EfficientNetB0 import create_model
+from model_ResNet50 import create_model
 from split import load_dataset, get_data_generators
 
 gpu = tf.config.list_physical_devices('GPU')
